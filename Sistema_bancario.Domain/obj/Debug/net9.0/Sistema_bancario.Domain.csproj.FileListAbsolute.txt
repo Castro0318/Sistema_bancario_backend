@@ -1,0 +1,15 @@
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\bin\Debug\net9.0\Sistema_bancario.Domain.deps.json
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\bin\Debug\net9.0\Sistema_bancario.Domain.dll
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\bin\Debug\net9.0\Sistema_bancario.Domain.pdb
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.AssemblyInfoInputs.cache
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.AssemblyInfo.cs
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.dll
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\refint\Sistema_bancario.Domain.dll
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.pdb
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\ref\Sistema_bancario.Domain.dll
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\bin\Debug\net9.0\Sistema_bancario.Infrastructure.dll
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\bin\Debug\net9.0\Sistema_bancario.Infrastructure.pdb
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_bancario.Domain.csproj.AssemblyReference.cache
+C:\Users\jonat\Desktop\repos\Sistema_bancario\Sistema_bancario.Domain\obj\Debug\net9.0\Sistema_.A4214C02.Up2Date

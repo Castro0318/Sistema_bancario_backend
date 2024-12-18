@@ -1,0 +1,976 @@
+[
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdTipoCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.ClienteEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.ClienteController",
+    "Method": "PostCliente",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.ClienteController",
+    "Method": "GetClientePorId",
+    "RelativePath": "api/Cliente/{idCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.ClienteController",
+    "Method": "PutCliente",
+    "RelativePath": "api/Cliente/{idClienteBuscar}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idClienteBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.ClienteController",
+    "Method": "DeleteCliente",
+    "RelativePath": "api/Cliente/{idClienteBuscar}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idClienteBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.ClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "GetCuentas",
+    "RelativePath": "api/Cuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdTipoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdEstadoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.CuentaEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "PostCuenta",
+    "RelativePath": "api/Cuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuenta",
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "GetCuentaPorId",
+    "RelativePath": "api/Cuenta/{idCuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuenta",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "PutCuenta",
+    "RelativePath": "api/Cuenta/{idCuentaBuscar}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuentaBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "cuenta",
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "DeleteCuenta",
+    "RelativePath": "api/Cuenta/{idCuentaBuscar}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuentaBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "CancelarCDT",
+    "RelativePath": "api/Cuenta/CancelarCDT/{idEstadoCuenta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstadoCuenta",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "PutDepositarCuenta",
+    "RelativePath": "api/Cuenta/Depositar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuentaBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Deposito",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "GetSaldoTotalCuentas",
+    "RelativePath": "api/Cuenta/GetSaldoTotalCuentas{IdCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Double",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.CuentaController",
+    "Method": "PutRetirarCuenta",
+    "RelativePath": "api/Cuenta/Retirar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCuentaBuscar",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Retiro",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.CuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.EstadoCuentaController",
+    "Method": "GetEstadoCuenta",
+    "RelativePath": "api/EstadoCuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderAsdDes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.EstadoCuentaEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.EstadoCuentaController",
+    "Method": "PostEstadoCuenta",
+    "RelativePath": "api/EstadoCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoCuenta",
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.EstadoCuentaController",
+    "Method": "PutEstadoCuenta",
+    "RelativePath": "api/EstadoCuenta/{idEstadoCuenta}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstadoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estadoCuenta",
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.EstadoCuentaController",
+    "Method": "DeleteEstadoCuenta",
+    "RelativePath": "api/EstadoCuenta/{idEstadoCuenta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstadoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.EstadoCuentaController",
+    "Method": "GetEstadoCuentaPorId",
+    "RelativePath": "api/EstadoCuenta/{idEstadoCuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstadoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.EstadoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.HistorialCuentaController",
+    "Method": "GetHistorialCuenta",
+    "RelativePath": "api/HistorialCuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderAsdDes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdCuenta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.HistorialCuentaEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.HistorialCuentaController",
+    "Method": "PostCliente",
+    "RelativePath": "api/HistorialCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Historial",
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.HistorialCuentaController",
+    "Method": "PutHistorialCuenta",
+    "RelativePath": "api/HistorialCuenta/{idHistorialCuenta}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistorialCuenta",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      },
+      {
+        "Name": "historial",
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.HistorialCuentaController",
+    "Method": "DeleteHistorialCuenta",
+    "RelativePath": "api/HistorialCuenta/{idHistorialCuenta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistorialCuenta",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.HistorialCuentaController",
+    "Method": "GetHistorialCuentaPorId",
+    "RelativePath": "api/HistorialCuenta/{idHistorialCuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idHistorialCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.HistorialCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoClienteController",
+    "Method": "GetEstadoCuenta",
+    "RelativePath": "api/TipoCliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderAsdDes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.TipoClienteEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoClienteController",
+    "Method": "PostCliente",
+    "RelativePath": "api/TipoCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Tipocliente",
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoClienteController",
+    "Method": "PutCliente",
+    "RelativePath": "api/TipoCliente/{idTipoCliente}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tipocliente",
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "IsRequired": true
+      },
+      {
+        "Name": "idTipoCliente",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoClienteController",
+    "Method": "DeleteTipoCliente",
+    "RelativePath": "api/TipoCliente/{idTipoCliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoClienteController",
+    "Method": "GetTipoClientePorId",
+    "RelativePath": "api/TipoCliente/{idTipoCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoClienteEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoCuentaController",
+    "Method": "GetTipoCuenta",
+    "RelativePath": "api/TipoCuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderAsdDes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Sistema_bancario.Domain.Entities.TipoCuentaEntity, Sistema_bancario.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoCuentaController",
+    "Method": "PostCliente",
+    "RelativePath": "api/TipoCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Tipocuenta",
+        "Type": "Sistema_bancario.Domain.Entities.TipoCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoCuentaController",
+    "Method": "PutTipoCuenta",
+    "RelativePath": "api/TipoCuenta/{idTipoCuenta}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoCuenta",
+        "Type": "Sistema_bancario.Domain.Entities.TipoCuentaEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoCuentaController",
+    "Method": "DeleteTipoCuenta",
+    "RelativePath": "api/TipoCuenta/{idTipoCuenta}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Sistema_bancario.Api.Controllers.TipoCuentaController",
+    "Method": "GetTipoCuentaPorId",
+    "RelativePath": "api/TipoCuenta/{idTipoCuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idTipoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Sistema_bancario.Domain.Entities.TipoCuentaEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
